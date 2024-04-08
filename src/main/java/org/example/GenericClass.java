@@ -1,8 +1,7 @@
 package org.example;
 
-// Generic bir alan içeren bir sınıf
 class GenericClass<T> {
-    private T value;
+    private final T value;
 
     // Constructor
     public GenericClass(T value) {
@@ -14,6 +13,3 @@ class GenericClass<T> {
         System.out.println("Value: " + value);
     }
 }
-
-
-
